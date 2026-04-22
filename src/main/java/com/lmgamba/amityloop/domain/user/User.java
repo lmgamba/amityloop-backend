@@ -1,4 +1,4 @@
-package com.lauragamba.amityloop.domain.user;
+package com.lmgamba.amityloop.domain.user;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;

@@ -1,4 +1,4 @@
-package com.lauragamba.amityloop.security;
+package com.lmgamba.amityloop.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

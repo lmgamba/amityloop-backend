@@ -1,4 +1,4 @@
-package com.lauragamba.amityloop.security;
+package com.lmgamba.amityloop.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -52,11 +52,4 @@ public class SecurityConfig {
         return http.build();
     }
 
-    // BCrypt is the standard algorithm for hashing passwords
-    // It automatically handles salting and is intentionally slow to resist brute force attacks
-    // @Bean makes this available for injection in UserService when we hash passwords
-    @Bean
-    public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
-    }
 }

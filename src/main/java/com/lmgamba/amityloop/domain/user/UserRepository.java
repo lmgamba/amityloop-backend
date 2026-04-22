@@ -1,4 +1,4 @@
-package com.lauragamba.amityloop.domain.user;
+package com.lmgamba.amityloop.domain.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

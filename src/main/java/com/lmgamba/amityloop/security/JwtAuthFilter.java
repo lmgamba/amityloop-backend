@@ -1,6 +1,6 @@
-package com.lauragamba.amityloop.security;
+package com.lmgamba.amityloop.security;
 
-import com.lauragamba.amityloop.domain.user.UserService;
+import com.lmgamba.amityloop.domain.user.UserService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
